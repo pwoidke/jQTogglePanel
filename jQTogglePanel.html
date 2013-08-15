@@ -34,7 +34,7 @@
 	<body>
 		<h1>Toggle Panel</h1>
 		
-		<div id="accordion">
+		<div id="accordion" style="margin:30px">
 			<ol>
 				<li>
 					<h2 style="display:none"></h2>
@@ -70,7 +70,7 @@
 		
 		<script src="liteaccordion.jquery.js"></script>
 		<script>
-			$('#accordion').liteAccordion({containerWidth : 600, containerHeight : 150, headerWidth: 30, leftText: "Advanced", rightText: "Basic"});
+			$('#accordion').liteAccordion({containerWidth : 600, containerHeight : 150, headerWidth: 10, leftText: "<span class=\"sliderButton\">&lt;&lt;</span>", rightText: "<span class=\"sliderButton\">&gt;&gt;</span>"});
 		</script>
 		
 		<script src="jquery-ui.custom.js"></script>
