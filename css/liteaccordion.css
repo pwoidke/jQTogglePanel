@@ -58,6 +58,7 @@
 	/* TODO: Fix translateY in the Javascript */
 	transform: translate(125%,-35%) rotate(90deg);	
 	display: block;
+	font-size: x-large;
     height: auto;
     padding: 0;
     text-align: center;
